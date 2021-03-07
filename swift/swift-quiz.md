@@ -721,3 +721,19 @@ print(names[1]+"Bear")
 - [x] `TonyBear`
 - [ ] Nothing, this code is invalid
 
+
+#### Q73. In this code what is population an example of?
+
+```swift
+class Town {
+	var inhabitantNames = [String]()
+	var population : Int { return inhabitantNames.count }
+}
+```
+
+- [ ] property observer
+- [x] none of these answers
+- [ ] inline property
+- [ ] This code is invalid
+
+* It is an example of a computed property.
